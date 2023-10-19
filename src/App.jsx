@@ -4,13 +4,13 @@ import menu from './data'
 import Menu from './Menu'
 
 const App = () => {
-  const [menu, setMenu] = useState(menu)
+  const [menuItems, setMenuItems] = useState(menu)
 
   return (
     <main>
       <section className='menu'>
         <Title text='our menu' />
-        <Menu items={menu} />
+        <Menu items={menuItems} />
       </section>
     </main>
   )
