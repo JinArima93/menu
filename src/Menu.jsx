@@ -1,14 +1,8 @@
 import React from 'react'
 import MenuItem from './MenuItem'
 
-const Menu = ({ mekus }) => {
-  return (
-    <div className='section-center'>
-      {mekus.map((item) => {
-        return <MenuItem key={item.id} {...item} />
-      })}
-    </div>
-  )
+const Menu = () => {
+  return <h1>Menu</h1>
 }
 
 export default Menu
